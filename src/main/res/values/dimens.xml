@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="base_margin_left_right">16dp</dimen>
+    <dimen name="base_text_size">14sp</dimen>
+    <dimen name="main_menu_button_top_bottom">32dp</dimen>
+    <dimen name="main_menu_text_size">24sp</dimen>
+    <dimen name="ttn">18sp</dimen>
+    <dimen name="ttn_margin_left_right">8dp</dimen>
+    <dimen name="edit_text">20sp</dimen>
+</resources>

@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/main_background"
+             tools:context="ukr.cargotracker.AboutFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_app"
+        android:textColor="@color/second_text_color"
+        android:textSize="@dimen/main_menu_text_size"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/main_menu_text_size"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/second_text_color"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/ttn"
+            android:layout_margin="@dimen/main_menu_text_size"
+            android:text="@string/about_text"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/main_menu_text_size"
+            android:layout_gravity="center_horizontal|bottom"
+            >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/second_text_color"
+            android:text="@string/developer"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/second_text_color"
+                android:text="@string/begin_develop"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="caption">
+        <item name="android:textSize">@dimen/main_menu_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/base_margin_left_right</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/second_text_color</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:textCursorDrawable">@drawable/text_cursor</item>
+        <item name="android:textColor">@color/second_text_color</item>
+        <item name="android:textSize">@dimen/edit_text</item>
+    </style>
+
+</resources>

@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context="track_nova_posta_fragment.TrackNovaPostaFragment"
+              android:background="@color/main_background"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nova_posta"
+        style="@style/caption"
+        android:id="@+id/tvTrackCaption"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/main_menu_button_top_bottom"
+        android:layout_marginLeft="@dimen/base_margin_left_right"
+        android:layout_marginRight="@dimen/base_margin_left_right"
+        android:layout_marginTop="@dimen/main_menu_button_top_bottom"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number_ttn"
+            android:textColor="@color/border"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:id="@+id/editTTN"
+            android:ems="10"
+            android:singleLine="true"
+            android:maxLines="1"
+            style="@style/EditText"
+            >
+            <requestFocus></requestFocus>
+        </EditText>
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:id="@+id/progress1"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/track_cargo"
+        android:textAllCaps="true"
+        android:layout_marginLeft="@dimen/base_margin_left_right"
+        android:layout_marginRight="@dimen/base_margin_left_right"
+        android:id="@+id/btnTrack"
+        android:background="@color/second_text_color"
+        />
+
+    <include layout="@layout/cargo_status"></include>
+
+</LinearLayout>

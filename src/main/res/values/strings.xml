@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Мои посылки</string>
+    <string name="nova_posta">Новая Почта</string>
+    <string name="in_time">Ин Тайм</string>
+    <string name="track_cargo">Отследить груз</string>
+    <string name="number_ttn">Введите номер накладной</string>
+    <string name="status">Статус</string>
+    <string name="scheduled_date">Ожидаемая дата достаки</string>
+    <string name="recipient_adress">Адрес получения</string>
+    <string name="cost">К оплате</string>
+    <string name="status_history">История статусов</string>
+    <string name="about_text">Неофициальное приложение для отслеживания посылок и грузов отправляемых через службы доставки \"Новая Почта\" и \"Ин Тайм\"</string>
+    <string name="begin_develop">19 февраля 2018</string>
+    <string name="about_app">О приложении</string>
+    <string name="developer">Разработчик: Кобзев Илья Владимирович</string>
+    <string name="np">НП</string>
+    <string name="in_time1">ИН</string>
+    <string name="error_request">Ошибка запроса</string>
+    <string name="carrier_not_support">Перевозчик не поддерживается</string>
+</resources>
